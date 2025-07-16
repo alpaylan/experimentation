@@ -1,6 +1,9 @@
 [package]
+edition = "2021"
 name = "experimentation"
 
 [dependencies]
+chrono = "0.4.41"
 csv = "1.3"
+process_control = "5.1.1"
 serde = { version = "1.0", features = ["derive"] }
